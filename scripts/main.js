@@ -72,7 +72,7 @@ function draw() {
       x.style.color = "white";
       x.innerHTML = "";
       var btn = document.createElement("BUTTON");
-      btn.innerHTML = "Start your life";
+      btn.innerHTML = "Start your Journey";
       var a = document.createElement("A");
       a.href = "scene.html";
       a.appendChild(btn);
