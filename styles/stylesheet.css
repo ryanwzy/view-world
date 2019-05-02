@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Karla|Ubuntu');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+}
+
+button {
+    /*  margin-top: 250px;*/
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    /* margin-top: 3%; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    /*   font-family: 'Karla', sans-serif;*/
+    /* font-size: 17px; */
+    letter-spacing: .20em;
+    text-decoration: none;
+    /*font-size: 23px;*/
+    /*font-family: 'Roboto Mono', monospace;*/
+    /* -webkit-transition: all 0.3s ease-in-out; */
+}
+button:hover{
+    transition: 0.3s;
+    background-color:whitesmoke;
+    color:  #555555;
+    text-decoration: none;
+}
+
+body {
+    /* background-image: url(bg.png); */
+    /* background-size: 8000px; */
+    /* margin-left:100px;*/
+    /* font-family: 'Roboto Mono', monospace;*/
+    font-family: 'Ubuntu', sans-serif;
+    /*   font-family: 'Karla', sans-serif;*/
+    font-size: 17px;
+    letter-spacing: .20em;
+    /*font-weight: regular;*/
+    color: white;
+    line-height: 2em;
+    /* width: 8000px; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -2;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    color: transparent;
+
+}
+
+
+.section {
+	position:fixed;
+	margin: auto;
+    top: 49%;
+    width: 100%;
+    text-align: center;
+}
+
+
+p {
+    margin-top: 5%;
+    width: 500px;
+}
+
+.transition {
+    /* color: transparent; */
+    /* background-color: #2fadac; */
+   -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* 
+.context {
+    transition: 500ms;
+  } */
