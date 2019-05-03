@@ -73,30 +73,11 @@ let root = d3.hierarchy({ children: data })
               desc: data.story,
           }
       });
-      
-        // var counter = node.data().counter;
-        // var name = node.data().name;
-        // var story = node.data().story;
-
-        // var full = name + counter;
-
-        // var singlePerson = document.createElement("div");
-        // var info = document.createElement("p");
-        // info.innerText = "Name: " + name + " Story: " + story;
-        // singlePerson.append(info);
-        // gallery.append(signlePerson);
-        // storageRef
-        //   .child("images/" + full)
-        //   .getDownloadURL()
-        //   .then(function(url) {
-        //     var img = document.createElement("img");
-        //     img.src = url;
-            
-        //     gallery.append(img);
-        //   });
+     
       });
     });
-})();
+    });
+
 
 
 simulation.nodes(nodes).on('tick', ticked);
@@ -327,3 +308,6 @@ function ticked() {
         .select('circle')
             .attr('r', d => d.r);
 }
+
+})
+();

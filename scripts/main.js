@@ -51,26 +51,34 @@ function draw() {
     else if (x.innerHTML === "Hello"){
       x.style.color = "transparent";
       x.innerHTML = "Hello<br>";
+      x.style.animation = "motionblur 0.7s normal";
     } 
     else if (x.innerHTML === "Hello<br>") {
+      x.style.animation = "";
       x.style.color = "white";
       x.innerHTML = "Welcome to Objective View-World.";
+      x.style.animation = "motionblur 0.7s reverse";
     } 
     else if(x.innerHTML === "Welcome to Objective View-World."){
+      x.style.animation = "";
       x.style.color = "transparent";
       x.innerHTML = "Welcome to Objective View-World.<br>";
+      x.style.animation = "motionblur 0.7s normal";
     } 
     else if(x.innerHTML === "Welcome to Objective View-World.<br>"){
       x.style.color = "white";
       x.innerHTML = "This is a place to review the world with non-human centric perspective.";
+      x.style.animation = "motionblur 0.7s reverse";
     } 
     else if(x.innerHTML === "This is a place to review the world with non-human centric perspective."){
       x.style.color = "transparent";
+      x.style.animation = "motionblur 0.7s normal";
       x.innerHTML = "This is a place to review the world with non-human centric perspective.<br>";
     } 
     else if(x.innerHTML === "This is a place to review the world with non-human centric perspective.<br>"){
       x.style.color = "white";
       x.innerHTML = "";
+      x.style.animation = "motionblur 0.7s reverse";
       var btn = document.createElement("BUTTON");
       btn.innerHTML = "Start your Journey";
       var a = document.createElement("A");
