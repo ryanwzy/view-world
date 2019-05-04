@@ -7,7 +7,7 @@
 .hamburger-container {
     border-radius: 10px;
     float: right;
-    z-index: 20;
+    z-index: 50;
     /*give this a z index so that it remains on top and will be clickable above the overlay  */
     position: fixed;
     padding: 1vw;
@@ -40,7 +40,7 @@
     width: 25vw;
     position: fixed;
     /* fixed position so if the page is scrollable, this still remains in the same position */
-    z-index: 10;
+    z-index: 40;
     /* z index so its above the main webpage, yet under the hamburger icon */
     top: 0;
     right: 0;
