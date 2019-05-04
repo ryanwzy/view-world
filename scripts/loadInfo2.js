@@ -13,8 +13,11 @@
 
         var signlePerson = document.createElement("div");
         signlePerson.setAttribute("class", "col-3");
+        var name = document.createElement("p");
+        name.innerText = nameVal;
         var info = document.createElement("p");
         info.innerText = story;
+        signlePerson.append(name);
         signlePerson.append(info);
         gallery.append(signlePerson);
         storageRef
