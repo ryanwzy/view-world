@@ -27,7 +27,6 @@
             var img = document.createElement("img");
             img.src = url;
             img.setAttribute("class", "col-12")
-
             signlePerson.append(img);
           });
       });
