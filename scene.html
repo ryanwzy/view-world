@@ -7,7 +7,10 @@
     <link rel="stylesheet" type="text/css" href="styles/bar.css">
 
   </head>
-  <body onload="init(), initialize()">
+  <body onload="init(), initialize(), toggleHelp()">
+    <audio loop autoplay>
+            <source src="a.mp3" type="audio/ogg">
+        </audio>
       <!-- menu -->
           <div class="hamburger-container" onclick="toggleHamMenu()">
               <div id="top_bun" class="ham-layer"></div>
@@ -37,7 +40,7 @@
     <!-- canvas -->
         
         <button id="help" onclick="toggleHelp()"><b>CLOSE</b></button> 
-        <div id="prompts">
+        <div id="prompts" class="unselectable">
             <div class="col-4"></div>
             <div class="col-4">
                 <br>
@@ -182,7 +185,9 @@
 <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase-storage.js"></script>
 <script defer src="scripts/database-init.js"></script>
 
-<script defer src="scripts/saveInfo.js"></script>
+
+    <!-- <script src="scripts/audio.js" type="text/javascript"></script> -->
+        <script defer src="scripts/saveInfo.js"></script>
         <script src="scripts/map.js" type="text/javascript"></script>
         <script src="scripts/bar.js" type="text/javascript"></script>
         <script src="scripts/canvas.js" type="text/javascript"></script>
