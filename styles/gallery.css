@@ -9,7 +9,7 @@
             color:black;
             font-family: 'Ubuntu', sans-serif;
 			font-size: 12px;
-            letter-spacing: .20em;
+            /* letter-spacing: .20em; */
             scroll-behavior: smooth;
 			/* -webkit-backface-visibility: hidden; */
         }
@@ -23,6 +23,7 @@
 			user-select: none; */
             box-sizing: border-box;
 			box-sizing: inherit;
+			letter-spacing: .20em;
 		}
 		h1 {
 			text-align: center;
