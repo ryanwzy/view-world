@@ -1,5 +1,5 @@
 # View-World
-### https://www.ryanwzy.com/View-World/
+### https://ryanwzy.github.io/view-world/
 ### A interactive website for exploring non-human centered perspectives.
 ### Designed by Ziyuan Wang(Ryan).
 As human beings, we have lived in this world for a long time, and we categorize every object in the physical world as beneficial or inimical to our needs based on our ecological self perspective. In other words, we have our subjective view towards everything in order to survive. But I believe we are not here just to survive, but to experience as much as we can while we are alive. Although we are already capable of experiencing complex emotions and experiences that no other creature can achieve, we are still fulfilling our desires as human beings without much thought for the meaning of what we define or create. However, there are some people in this world who are tired of the view that everything exists for the purpose of serving human beings and even feel disappointed, because most people think like this, and they have a hard time thinking outside their own definition of things.
